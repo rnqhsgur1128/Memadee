@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
@@ -12,51 +16,58 @@
       <nav id="navi">
         <div class="LogoImgBox">
           <a href="https://www.marvel.com/" target="_blank">
-            <img class="LogoImg" src="img/00110011.png" />
+            <img class="LogoImg" src="img/0011000.png" />
           </a>
         </div>
-        <div class="dropdown">
-          <p class="dropbtn">Home</p>
-          <div class="dropdownMenu">
-            <a href="#">Main</a>
-            <a href="#">Reservation</a>
-            <a href="#">Directions </a>
-          </div>
-        </div>
-        <div class="dropdown">
-          <p class="dropbtn">Information</p>
-          <div class="dropdownMenu">
-            <a href="#">Main</a>
-            <a href="#">Reservation</a>
-            <a href="#">Directions </a>
-          </div>
-        </div>
-        <div class="dropdown">
-          <p class="dropbtn">Event</p>
-          <div class="dropdownMenu">
-            <a href="#">Main</a>
-            <a href="#">Reservation</a>
-            <a href="#">Directions </a>
-          </div>
-        </div>
-        <div class="dropdown">
-          <p class="dropbtn">Membership</p>
-          <div class="dropdownMenu">
-            <a href="#">Main</a>
-            <a href="#">Reservation</a>
-            <a href="#">Directions </a>
-          </div>
-        </div>
+        <ul class="dropdownZip">
+          <li class="dropdown">
+            <p class="dropbtn">Home</p>
+            <div class="dropdownMenu">
+              <a href="#">Main</a>
+              <a href="#">Reservation</a>
+              <a href="#">Directions </a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <p class="dropbtn">Information</p>
+            <div class="dropdownMenu">
+              <a href="#">Main</a>
+              <a href="#">Reservation</a>
+              <a href="#">Directions </a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <p class="dropbtn">Event</p>
+            <div class="dropdownMenu">
+              <a href="#">Main</a>
+              <a href="#">Reservation</a>
+              <a href="#">Directions </a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <p class="dropbtn">Membership</p>
+            <div class="dropdownMenu">
+              <a href="#">Main</a>
+              <a href="#">Reservation</a>
+              <a href="#">Directions </a>
+            </div>
+          </li>
+        </ul>
       </nav>
-      <div class="container">
+    </header>
+    <div class="container">
+      <div class="swiper">
         <img class="poster" src="img/1.jpg" />
         <img class="poster" src="img/2.jpg" />
         <img class="poster" src="img/3.jpg" />
-        <img class="poster" src="img/4.jpg" />
-        <img class="poster" src="img/5.webp" />
+        <img class="poster" src="img/4.png" />
+        <img class="poster" src="img/5.jpg" />
         <img class="poster" src="img/6.jpg" />
       </div>
-    </header>
+    </div>
+    <div class="btn-pre"></div>
+    <div class="btrn-next"></div>
     <script src="wow.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </body>
 </html>

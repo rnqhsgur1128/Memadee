@@ -20,10 +20,38 @@ body {
   width: 100%;
 }
 
+.container {
+  height: 400px;
+}
+
+.swiper-wrapper {
+  margin: 50px auto;
+  width: 400px;
+}
+
+.swiper-slide {
+  display: inline-block;
+  margin: 0px;
+}
+
+.swiper-slide figure {
+  width: 700px;
+  height: 150%;
+  overflow: hidden;
+  transition: all ease-in-out 0.2s;
+}
+
+.poster {
+  width: 60%;
+  height: 100%;
+  object-fit: cover;
+}
+
 #navi {
   display: flex;
   justify-content: center;
   width: 100%;
+  margin: 0 110px;
 }
 
 .dropdownZip {
@@ -75,26 +103,9 @@ body {
   text-decoration: none;
 }
 
-.swiper {
-  display: flex;
-  justify-content: center;
-  margin: 100px auto;
-  width: auto;
-  height: 400px;
-  gap: 15px;
-}
-
-.poster {
-  width: 10%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 2px;
-  border: 1px solid white;
-  transition: all ease-in-out 0.2s;
-}
-
-.container img:hover {
-  width: 20%;
+.BTN {
+  color: white;
+  font-weight: 800;
 }
 
 @keyframes dropAni {

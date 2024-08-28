@@ -15,4 +15,19 @@ var Swiper = new Swiper(".swiper-container", {
   },
 });
 
-Swiper;
+const side = document.getElementById("SIDE");
+const slieMenu = document.getElementById("side-menu");
+const exit = document.getElementById("exit");
+
+function sideClick() {
+  slieMenu.style.display = `block`;
+}
+
+function exitClick() {
+  console.log("bye!");
+}
+
+////사이드 ID로 toggle 이용해보기 ////
+
+side.addEventListener("click", sideClick);
+exit.addEventListener("click", exitClick);
